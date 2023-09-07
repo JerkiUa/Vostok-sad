@@ -1,0 +1,146 @@
+.form{
+    background-image: url(/static/img/form-fon.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 884px;
+}
+
+.form-block{
+    max-width: 1080px;
+    margin: 20px auto 0 auto;
+    padding-top: 40px;
+}
+
+.form-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.form-text{
+    max-width: 480px;
+}
+
+.form-text p{
+    max-width: 340px;
+}
+.form-text ul{
+    padding-top: 15px;
+}
+.form-text li{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.form-text li img{
+    padding-right: 10px;
+}
+.form-main{
+    max-width: 478px;
+    border-radius: 19.434px;
+    border: 0.972px solid #000;
+    background: #FFF;
+    margin-top: 55px;
+}
+
+.form-main p{
+    text-align: center;
+}
+.form-main h2{
+    margin: 33px auto 20px auto;
+}
+
+.form-t{
+    border-radius: 19.434px;
+    border: 0.972px solid #989898;
+    background: #EEE;
+    width: 328.967px;
+    height: 92.313px;
+    padding-left: 48px;
+    margin: 35px auto 0 auto;
+    display: block;
+}
+
+.btn-form{
+    margin: 27px auto 15px auto;
+    padding: 22px 20px;
+    display: block;
+}
+
+
+@media(max-width:1200px){
+    .form-block{
+        max-width: 900px;
+        padding-top: 40px;
+    }
+    .form-content{
+        display: flex;
+        margin: 0 auto 0 auto;
+        
+    }
+    .form {
+        height: 954px;
+    }
+}
+@media(max-width:1000px){
+    .form-block{
+        max-width: 480px;
+        padding-top: 40px;
+    }
+    .form-content{
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+    .form {
+        height: 954px;
+    }
+}
+@media(max-width:640px){
+    .form-block{
+        max-width: 320px;
+    }
+    .form-content{
+
+    }
+    .form {
+        height: 754px;
+    }
+    .form-block h2{
+        font-size: 20px;
+    }
+    .form-text p{
+        font-size: 14px;
+    }
+    .form-text li{
+        font-size: 14px;
+    }
+    .form-text li img{
+        width: 11px;
+        height: 11px;
+    }
+    .form-main{
+        width: 313.319px;
+        height: 371.657px;
+    }
+    .form-block h2{
+        font-size: 24px;
+    }
+    .form-main p{
+        font-size: 16px;
+    }
+    .form-t{
+        width: 248.405px;
+        height: 60.509px;
+        margin: 15px auto 0 auto;
+    }
+    .form-main button{
+        width: 182.022px;
+        height: 40.368px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

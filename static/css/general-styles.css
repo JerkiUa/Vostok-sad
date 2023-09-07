@@ -1,0 +1,166 @@
+.wrapper{
+    width: 100%;
+    background-image: url(../img/Фон.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+section,header,footer{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1{
+    font-size: 31px;
+    letter-spacing: 1.085px;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px ;
+    letter-spacing: 1.26px;
+}
+
+h3{
+    font-size: 29.12px;
+    letter-spacing: 1.019px;
+}
+
+h4{
+    font-size: 25px;
+    letter-spacing: 0.875px;
+}
+.p800{
+    color: #272727;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 131.4%; /* 32.85px */
+}
+.p700{
+    color: #272727;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 131.4%; /* 32.85px */
+}
+
+.li-disc{
+    list-style: disc;
+    
+}
+.p500{
+    color: #272727;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 131.4%; /* 32.85px */
+}
+.p20{
+    font-size: 20px;
+}
+.p23{
+    font-size: 23px;
+}
+
+.p25{
+    font-size: 25px
+}
+
+.p15{
+    font-size: 15px;
+}
+
+.btn-orange{
+    border-radius: 71px;
+    background: radial-gradient(71.43% 91.94% at 50.31% 0%, #FFDFB9 0%, #FF8900 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: Gotham Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.fade-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+}
+.modal-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.card-header h2{
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.modal-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.card-modal{
+    position: relative;
+    width: 760px;
+    height: 341px;
+    background: white;
+    padding-left: 33px;
+    padding-right: 33px;
+    border-radius: 30px;
+}
+.btn-modal{
+    width: 210px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0 auto;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.modal-input{
+    border-radius: 7px;
+    border: 1px solid #BDBDBD;
+    width: 590px;
+    height: 61px;
+    padding-left: 20px;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+@media(max-width:550px){
+    .wrapper{
+        background-image: url(../img/Фон-mob.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px !important;
+        width: 100%;
+    }
+    section,header,footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

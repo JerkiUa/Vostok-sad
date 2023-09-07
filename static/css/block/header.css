@@ -1,0 +1,120 @@
+.header{
+    max-width: 1100px;
+    padding-top: 68px;
+    margin: 0 auto 0 auto;
+}
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-head{
+    padding: 6px 17px;
+    border-radius: 8.601px;
+    border: 0.956px solid #FF8900;
+}
+
+.nav-header li{
+    font-size: 17.203px;
+    font-weight: 600;
+}
+
+.nav-header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 561px;
+}
+
+.p19{
+    font-size: 19.114px;
+    font-weight: 500;
+}
+
+.connection-header{
+    width: 171px;
+    text-align: center;
+}
+.burger-menu-block{
+    display: none;
+    margin: 0 auto 0 auto;
+}
+
+@media(max-width:1220px){
+    .nav-header ul{
+        width: 451px;
+    }
+}
+@media(max-width:1000px){
+    .nav-header ul{
+        width: 401px;
+    }
+}
+@media(max-width:940px){
+    .nav-header ul{
+        display: none;
+    }
+    /* .burger-menu{
+        display: block;
+        content: "";
+        height: 2px;
+        width: 18px;
+        margin: 0 auto 0 auto;
+        position: relative;
+        background-color: black;
+
+    }
+    .burger-menu::before{
+        display: block;
+        content: "";
+        height: 2px;
+        width: 24px;
+        margin: 0 auto 0 auto;
+        background-color: black;
+        position: absolute;
+        top: 10px;
+    }
+    .burger-menu::after{
+        display: block;
+        content: "";
+        height: 2px;
+        width: 24px;
+        margin: 0 auto 0 auto;
+        background-color: black;
+        position: absolute;
+        bottom: 100%;
+        top: auto;
+    } */
+    .burger-menu-line{
+        display: block;
+        height: 2px;
+        width: 24px;
+        background-color: black;
+        margin: 0 auto 0 auto;
+        margin-bottom: 4px;
+    }
+    .burger-menu-line:nth-child(1){
+        margin-top: 12px;
+    }
+    .burger-menu-block{
+        display: block;
+        width: 38px;
+        height: 38px;
+        background-color: rgba(219, 219, 219, 1);
+        border-radius: 50%;
+    }
+    .nav-burger-menu{
+        display: none;
+    }
+}
+
+@media(max-width:550px){
+    .btn-mob{
+        display: none;
+    }
+    .header{
+        padding-top: 18px;
+    }
+}

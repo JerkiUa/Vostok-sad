@@ -1,0 +1,84 @@
+.projects-block{
+    max-width: 1180px;
+    margin: 0 auto 0 auto;
+}
+
+.projects-cards{
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 475px);
+    width: 100%;
+    max-width: 1160px; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 150px; /* Отступ между колонками */
+    row-gap: 150px; /* Отступ между рядами */
+    margin: 80px auto 0 auto;
+    height: auto;
+}
+.projects-card img{
+    padding-bottom: 67px;
+}
+.projects-card p{
+    padding-bottom: 17px;
+}
+.projects-card li{
+    padding-bottom: 8px;
+}
+.projects-card{
+    position: relative;
+    height: 850px;
+}
+.btn-projects{
+    width: 286px;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+}
+.projects-card button{
+    right: 50%;
+    left: 50%;    
+    transform: translate( -50%);    
+}
+
+@media(max-width:630px){
+    .projects-card img{
+        width: 284.047px;
+        height: 171.86px;
+        padding-bottom: 27px;
+        margin: 0 auto 0 auto;
+    }
+    .projects-card p{
+        font-size: 14px;
+    }
+    .projects-card li{
+        font-size: 13px;
+        width: 300px;
+        padding-bottom: 5px;
+
+    }
+    .projects-card{
+        margin: 0 auto 0 auto;
+        height: 500px;
+        position: relative;
+    }
+    .projects-card button{
+        width: 170px;
+        height: 41px;
+        font-size: 10px;
+        margin: 0 auto 0 auto;
+        right: 50%;
+        left: 50%;    
+        transform: translate( -50%);    
+    }
+    .projects-cards{
+        row-gap: 30px;
+    }
+}
+
+@media(max-width:370px){
+    .projects-card nav{
+        width: 280px;
+        padding-left: 15px;
+    }
+}
